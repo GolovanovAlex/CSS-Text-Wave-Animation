@@ -3,3 +3,19 @@
   margin: 0;
   box-sizing: border-box;
 }
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+.wavy {
+  position: relative;
+}
+.wavy span {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  font-size: 2em;
+}
